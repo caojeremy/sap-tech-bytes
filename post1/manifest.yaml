@@ -1,5 +1,6 @@
 ---
- applications:
- - name: my-web-pageeee
-   buildpacks:
-   - https://github.com/cloudfoundry/staticfile-buildpack
+applications:
+  - name: cj-app
+    default-route: true
+    buildpacks:
+      - https://github.com/cloudfoundry/staticfile-buildpack

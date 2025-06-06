@@ -3,13 +3,13 @@
         "instance": {
             "existing_destinations_policy": "update",
             "destinations": [
-		{
+                {
                     "Name": "backendDestination",
                     "Authentication": "NoAuthentication",
                     "ProxyType": "Internet",
                     "Type": "HTTP",
                     "URL": "https://services.odata.org/V4/Northwind/Northwind.svc/"
-              }
+                }
             ]
         }
     }
